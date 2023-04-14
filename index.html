@@ -19,6 +19,9 @@
 
 <body>
     <header>
+        
+        <div class="container">
+        
         <!-- Introductory content -->
         <img src="img/panoramic-laguna-brava-2.jpg" alt="Laguna Brava lake" title="Laguna Brava" class="img-fluid">
 
@@ -31,9 +34,13 @@
             also known as Yolnabaj by the region's inhabitants, which translates as "rough lake". Despite its name, the
             waters of Laguna Brava Laguna are so calm that they instantly awaken a deep feeling of peace.
         </p>
+        </div>
+        
+
     </header>
 
-    <main>
+
+    <main class="container">
         <!-- Dominant content of the web page -->
 
         <section class="my-5">
@@ -47,7 +54,7 @@
             </p>
         </section>
 
-        <section class="my-5">
+        <section class="my-4 row">
             <h2 class="display-5" class="my-5">Activities</h2>
             <p>
                 The communities offer two options for guided visits that allow visitors to enjoy Laguna Brava's natural
@@ -55,15 +62,14 @@
                     who know the lake very well to
                     take care of your safety.</strong>
             </p>
-            <article class="border border-secondart border-2" class="my-5">
+            <article class="col-lg my-2 py-2 mx-lg-1 px-2 border border-secondary border-2" class="my-5">
                 <!-- Self-contained content intended to be independently distributable -->
                 <h3 class="display-6 text-center">The Lake Challenge</h3>
                 <figure>
                     <img src="img/kayak.jpg" alt="Lake challenge kayak"
                         title="Kayak on Laguna Brava" class="img-fluid rounded-pill">
                     <figcaption>
-                        Cross the four kilometres in a kayak guided by a local guide. <strong
-                        <i class="bi-exclamation-triangle"></i>This guided visit is
+                        Cross the four kilometres in a kayak guided by a local guide. <strong<i class="bi-exclamation-triangle"></i>This guided visit is
                             physically demanding, and it is recommended for only those in excellent physical
                             condition.</strong>
                     </figcaption>
@@ -74,7 +80,7 @@
                     <li>Minimum: 2 pax</li>
                 </ul>
             </article>
-            <article class="border border-secondart border-2" class="my-5">
+            <article class="col-lg my-2 py-2 mx-lg-1 px-2 border border-secondary border-2" class="my-5">
                 <h3 class="display-6 text-center">Sit Back & Relax</h3>
                 <figure>
                     <img src="img/boat.jpg"  alt="Sit Back & Relax boat" title="Boat trip"
@@ -90,15 +96,24 @@
                     <li>Minimum: 4 pax</li>
                 </ul>
             </article>
+        </div>
         </section>
     </main>
-    <aside>
+    <aside class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4"> 
+
         <h2>Have you travelled to Laguna Brava?</h2>
         <p>
             We want to know about your experiences.
         </p>
+        <div class="col-lg-8">
+
+        </div>
+        
         <!-- A form asking for page viewer's experiences -->
         <form action="https://api.sheetmonkey.io/form/55YHGD23mbrni37GBQ98j2" method="POST">
+            
             <label for="name">Name: </label>
             <input type="text" name="name" id="name" placeholder="Write your name" required="True"><br><br>
 
@@ -111,8 +126,11 @@
 
             <input type="submit" value="Submit"><br><br>
         </form>
+    </div>
+        </div>
+        </div>
     </aside>
-    <footer>
+    <footer class="text-center my-5 pt-3 border-top">
         <!-- Defines a footer for a document or section -->
         &copy; 2023 Laguna Brava Ecotourism
     </footer>
